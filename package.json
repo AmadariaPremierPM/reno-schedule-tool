@@ -1,0 +1,17 @@
+{
+  "name": "reno-schedule-tool",
+  "version": "1.0.0",
+  "description": "Local web app that generates renovation project Gantt schedules in Smartsheet from your standard templates.",
+  "type": "commonjs",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
